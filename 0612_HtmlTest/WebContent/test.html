@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+.content {
+	width: 100%;
+	height: 520px;
+	background-color: #f0f0f0;
+	background-image: url("image/bg_pencil.png");
+	background-repeat: no-repeat;
+	background-position: 50px 200px;
+}
+
+.innerDiv {
+	width: 70%;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.5)
+}
+</style>
+</head>
+<body>
+	<form action="insertMember" method="get">
+		ID : <input type="text"><br> PW : <input type="password"><br>
+		<input type="file"><br> <input type="email"><br>
+		<input type="month"><br> <input type="number"><br>
+		<input type="submit" value="전송하기">
+		<button type="button">전송하기</button>
+	</form>
+	<div class=content>
+		<div class=innerDiv></div>
+	</div>
+</body>
+</html>
